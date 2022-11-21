@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 23%;
+    padding-left: 136px;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.img {
+    right: 130px;
+    position: relative;
+    top: 25%;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: #5D5D7D;
+    width: 368px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    opacity: 0.6;
+    width: 540px;
+    margin: 15px 0px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.6;
+}
+
+header {
+    margin: 27px 0 0 57px;
+}
+
+@media screen and (max-width: 950px) {
+    .container-left {
+        width: 100px;
+        right: 50px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        position: static;
+        height: auto;
+        padding: 40px;
+    }
+
+    .img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        color: #5D5D7D;
+        text-align: center;
+        width: 268px;
+        margin: 58px 50px 0 50px;
+    }
+
+    .p {
+        margin: 15px 40px;
+        width: 296px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .button-section {
+        margin: 0 0 0 55px;
+        display: block;
+    }
+}
